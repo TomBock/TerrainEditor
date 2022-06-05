@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50d87926365a4d3bae689f18d2a4dd7, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  brushSizeMin: 1
+  brushSizeMax: 50
+  brushSizeDefault: 25
+  brushStrengthDefault: 0.5
+  flattenHeightMin: 0
+  flattenHeightMax: 10
+  flattenHeightDefault: 3
+  paintLayers:
+  - {fileID: 8574412962073106934, guid: fcb0884a436ec4cf1b44917a7ddb5c6a, type: 2}
+  - {fileID: 8574412962073106934, guid: e0819c153d81c4c1da6643287a7f7524, type: 2}
+  - {fileID: 8574412962073106934, guid: ce916adba9859432ea41d3c05bedbddb, type: 2}
+  - {fileID: 8574412962073106934, guid: af77e6a9d0cbd4565a4178160a9689f6, type: 2}
+  brushTextures:
+  - {fileID: 2800000, guid: 1b553e4d4e58b4cc18226b95cd95c5b8, type: 3}
+  - {fileID: 2800000, guid: a9774a05fddab414e96c218384b58c89, type: 3}
+  - {fileID: 2800000, guid: 75810725c24014654a7afd3794fd76bf, type: 3}
+  - {fileID: 2800000, guid: 20cd6c62918a34aadb2d6472e4887f1a, type: 3}
+  - {fileID: 2800000, guid: ce58d4c9dc64548a5bbe3e7d0d54de20, type: 3}
+  randomObjectHeightMin: 0.75
+  randomObjectHeightMax: 1.25
+  randomObjectWidthMin: 1
+  randomObjectWidthtMax: 1.1
+  objectPrefabs:
+  - {fileID: 6553880036104973987, guid: 062e9192f252642aaa1f8c258060449f, type: 3}
+  - {fileID: 444866440689195648, guid: fdfe870b369f54dd885328df03cf7d45, type: 3}
+  - {fileID: 404927149888480781, guid: 886e1a43275f347ef9cdfca04aa52d0c, type: 3}
+  saveFolderPath: PinusCraft/RuntimeTerrainEditor/Thumbnails/
+  objectThumbnails:
+  - {fileID: 2800000, guid: c8d1f36fa1c3b4c4db311f306ddc1145, type: 3}
+  - {fileID: 2800000, guid: 90d64dd1308624a438763b259e112162, type: 3}
+  - {fileID: 2800000, guid: e4d68ac531dbb430892020c1c57388f1, type: 3}

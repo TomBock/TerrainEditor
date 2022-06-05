@@ -1,0 +1,54 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Terrain",
+            "id": "e77a8010-64a5-4deb-b457-025c0c118499",
+            "actions": [
+                {
+                    "name": "ExecuteAction",
+                    "type": "Button",
+                    "id": "6493128b-b3b0-4151-97ec-a2311637cc3b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "UndoAction",
+                    "type": "Button",
+                    "id": "8c82b04b-6b08-49e8-8b86-4bf50dcfe74f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "75ac7e4e-adcd-424c-b00f-1e458de716da",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ExecuteAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ba7e394-ee0a-499f-8470-bab61e9b659b",
+                    "path": "<Keyboard>/1",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UndoAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
